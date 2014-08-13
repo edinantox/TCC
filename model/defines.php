@@ -20,6 +20,7 @@
 	define("JS",VIEW.'/js');
 	define("CSS",VIEW.'/css');
 	define("CLASSES",ROOT.'/model/classes/');
+	define("META","");
 
 //---/PATH's
 
