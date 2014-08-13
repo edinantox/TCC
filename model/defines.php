@@ -37,7 +37,7 @@
 			require_once(CLASSES.$classname.".class.php");
 		} else {
 			echo "Classe inválida";
-			//require_once(CLASSES.$classname.".class.php");
+
 		}
 	}
 //---/LOAD CLASS
