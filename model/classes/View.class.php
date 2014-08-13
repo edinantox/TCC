@@ -3,11 +3,12 @@ class View{
     function __construct(){
 
         switch(substr(strrchr($_SERVER['REQUEST_URI'],"?"),1)){
-            case 'registro':;
+            case 'cadastro':$c="Cadastro";
                 break;
-            case 'categorias':;
+            case 'categorias':$c="Categorias";
                 break;
-            default:;
+
+            default:$c="Main";
                 break;
 
         }

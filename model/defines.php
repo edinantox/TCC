@@ -33,11 +33,11 @@
 //---LOAD CLASS
 	function require_class($classname) {
 
-		if(file_exists(CLASSES.$classname)) {
-			require_once(CLASSES.$classname.".class.php"); // looking for the class in the project's classes folder
+		if(file_exists(CLASSES.$classname.".class.php")) {
+			require_once(CLASSES.$classname.".class.php");
 		} else {
-			//echo $classname;
-			require_once(CLASSES.$classname.".class.php"); // looking for the class in include_path
+			echo "Classe inválida";
+			//require_once(CLASSES.$classname.".class.php");
 		}
 	}
 //---/LOAD CLASS
