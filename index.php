@@ -1,12 +1,12 @@
 <?php
     include "./model/defines.php";
-    echo DOCTYPE;
-?>
 
-<html>
+?>
+<!DOCTYPE HTML>
+<html lang='pt' dir='ltr'>
     <head>
         <?php
-            echo META;
+            include_once './model/header.php';
         ?>
 
     </head>
