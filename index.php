@@ -2,11 +2,13 @@
     include "./model/defines.php";
     echo DOCTYPE;
 ?>
+
 <html>
     <head>
         <?php
             echo META;
         ?>
+
     </head>
     <body>
         <?php
