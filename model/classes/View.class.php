@@ -7,11 +7,16 @@ class View{
                 break;
             case 'categorias':$c="Categorias";
                 break;
+            case 'admin':$c="Admin";
+                break;
 
             default:$c="Main";
                 break;
 
         }
+
+        require_class($c);
+        new $c;
     }
 
 }

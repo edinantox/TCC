@@ -1,10 +1,12 @@
 <?php
-class Cadastro{
+class Admin{
     function __construct(){
         $this->frame();
     }
+
     function frame(){
-        echo "cadastro";
+        echo "admin";
     }
+
 }
 ?>
