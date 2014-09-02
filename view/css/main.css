@@ -1,0 +1,44 @@
+body{
+    background:  url(../imagens/bg.png);
+
+}
+
+#logo{
+    position: absolute;
+    top:5px;
+    left: 20px;
+    height:150px;
+    width:300px;
+    background: #ccc;
+    z-index: 5;
+}
+
+#header{
+    min-width: 1024px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    width: auto;
+    background: #8e8e8e;
+}
+
+#search{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background: #ccc;
+    width: 300px;
+    height: 25px
+}
+
+#cat{
+    position:absolute;
+    top: 10px;
+    right: 30px;
+    margin-right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #ccc;
+}
