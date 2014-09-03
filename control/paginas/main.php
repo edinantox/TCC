@@ -21,7 +21,9 @@ echo '
             </div>
 
             <div id="cat">
-                '.$this->login_icone().'
+                ';
+                $this->login_icone();
+                    echo '
             </div>
         </div>
 
