@@ -1,4 +1,5 @@
 <?php
+
 echo '
     <div id="content">
 
@@ -20,6 +21,7 @@ echo '
             </div>
 
             <div id="cat">
+                '.$this->login_icone().'
             </div>
         </div>
 

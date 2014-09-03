@@ -10,9 +10,12 @@
 #header #logo{
 	position:absolute;
     background: url(../imagens/logo.png) left top no-repeat;
-	top:0px;
-	left:0px;
+    width: 300px;
+    height: 100px;
+	top:5px;
+	left:20px;
     z-index: 5;
+
 }
 
 #header #search{
@@ -20,6 +23,7 @@
 	background-color:#fff;
 	top:11px;
 	right:125px;
+
 	height:27px;
 	float:right;
 }
