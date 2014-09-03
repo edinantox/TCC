@@ -20,11 +20,13 @@ echo '
             <div id="search">
             </div>
 
-            <div id="cat">
+            <div id="login-icone" class="abre" onclick="menu_login(this)">
                 ';
                 $this->login_icone();
-                    echo '
-            </div>
+echo '      </div>
+            <div id="login-frame">';
+             echo $this->login;
+echo '      </div>
         </div>
 
         <div id="banner">

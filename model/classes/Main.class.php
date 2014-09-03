@@ -1,5 +1,6 @@
 <?php
 class Main{
+    public $login;
     function __construct(){
         $this->frame();
     }
