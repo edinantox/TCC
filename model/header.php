@@ -57,7 +57,7 @@
             $con=new Conexao();
             $qr=$con->query('select * from ui_cores');
             //menu_bg 	menu_link 	menu_link_hover 	menu_icon 	body_bg 	body_link 	body_link_hover
-            while($res=mysql_fetch_array($qr)){
+            /*while($res=mysql_fetch_array($qr)){
                 echo 'body {background:#'.$res['body_bg'].';}';
                 echo 'body a{color:#'.$res['body_link'].';}';
                 echo 'body a:hover{color:#'.$res['body_link_hover'].';}';
@@ -65,7 +65,7 @@
                 echo '#header #menu a{color:#'.$res['menu_link'].';}';
                 echo '#header #menu a:hover{color:#'.$res['menu_link_hover'].';}';
 
-            }
+            }*/
         echo '</style>';
     //-----/INCLUDES
 
