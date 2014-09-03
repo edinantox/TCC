@@ -12,7 +12,7 @@ class Main{
     }
 
     function login_icone(){
-            echo 'teste';
+
 			if(LOGIN==0){
 				echo '<img src="'.IMAGENS.'/login.png" width="25" style="cursor:pointer;"  class="abre">
 				';
